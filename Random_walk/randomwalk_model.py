@@ -56,4 +56,3 @@ rw = Randomwalk(1000)
 rw.get_points()
 
 rw.plot_walk()
-# rw.plot_walk()
