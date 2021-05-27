@@ -44,7 +44,7 @@ class Randomwalk:
 
 
 	def plot_walk(self): # method to plot the data
-		plt.plot(self.x_vals, self.y_vals, c="black")
+		plt.plot(self.x_vals, self.y_vals, c="blue")
 		plt.title("Randomwalk Simulation", fontsize=24)
 		plt.xlabel("x values", fontsize=14)
 		plt.ylabel("y values", fontsize=14)
@@ -52,8 +52,3 @@ class Randomwalk:
 		plt.show()
 
 
-rw = Randomwalk(1000)
-rw.get_points()
-
-rw.plot_walk()
-# rw.plot_walk()
