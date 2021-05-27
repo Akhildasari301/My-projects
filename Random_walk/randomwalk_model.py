@@ -52,3 +52,10 @@ class Randomwalk:
 		plt.show()
 
 
+<<<<<<< HEAD
+=======
+rw = Randomwalk(1000)
+rw.get_points()
+
+rw.plot_walk()
+>>>>>>> 03df627aa79f2e7fea470d19bde617ea73bb1609
